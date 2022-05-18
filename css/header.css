@@ -1,0 +1,21 @@
+.cabecalho .container{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.linkMenuNav {
+    color: blueviolet;
+    border-style: solid;
+    border-width: 2px;
+    border-color:black;
+    border-radius: 15%;
+    margin-left: 5%;
+}
+
+.menuNavegacao {
+    display: flex;
+
+}
