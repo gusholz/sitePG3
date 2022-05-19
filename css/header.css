@@ -1,21 +1,44 @@
+.container{
+    color: rgb(2, 4, 225);
+    fill: yellowgreen;
+}
+
 .cabecalho .container{
     display: flex;
     margin-left: 5%;
     margin-right: 5%;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between  ;
 }
 
 .linkMenuNav {
     color: blueviolet;
+    
     border-style: solid;
     border-width: 2px;
+    padding: 2px;
     border-color:black;
+    opacity: 50%;
     border-radius: 15%;
     margin-left: 5%;
 }
 
 .menuNavegacao {
     display: flex;
+    font-size: 30px;
 
+}
+
+.mainConteudo {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.mainConteudo p {
+    padding-top: 35px;
+}
+
+.mainConteudo h1{
+    font-size: 48px;
+    text-align: center;
 }
