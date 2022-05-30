@@ -1,0 +1,97 @@
+.mainConteudoHome{
+    background-color: #DADFE6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.painelHome {
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+    align-items: center;
+}
+
+.painelHome .h2Personalidade{
+    margin-right: 140px;
+    margin-bottom: 10px;
+}
+
+.painelHome .h2Trajetoria{
+    margin-right: 182px;
+    margin-bottom: 10px;
+}
+
+.mainConteudoHome h1 {
+    font-size: 64px;
+    color: #171A19;
+    font-family: 'Tiro Bangla', serif;
+    margin-top: 140px;
+    opacity: 0;
+}
+
+.mainConteudoHome h2 {
+    font-size: 20px;
+    color: #171A19;
+    font-family: 'Merriweather', serif;
+}
+
+.mainConteudoHome p {
+    font-size: 16px;
+    line-height: normal;
+    max-width: 60%;
+    font-family: 'Merriweather', serif;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+
+#imgHomeAldemir {
+    width: 20%; 
+    height: 20%;
+    
+}
+
+#imgHomePraia {
+    position: absolute;
+    width: 500px;
+    height: 45%;
+    margin-left: 350px;
+    margin-top: 80px;
+}
+
+.mainConteudoVida{
+    background-color: #DADFE6;
+    
+}
+
+.mainConteudoObra{
+    background-color: #DADFE6;
+   
+}
+
+.mainConteudoEncontre{
+    background-color: #DADFE6;
+    
+}
+
+b {
+    font-weight: 700;
+}
+
+.button {
+    font-family: 'Merriweather', serif;
+    padding: 10px;
+    background-color: #171A19;
+    border-radius: 25%;
+    color: #DADFE6;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+
+a :hover {
+    color: #469bd6;
+    text-decoration: underline ;
+}
+
+

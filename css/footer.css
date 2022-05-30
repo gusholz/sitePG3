@@ -1,20 +1,17 @@
 .rodape{
-    background-color: gray;
+    background-color: #171a19;
+    margin-top: auto;
 }
 
 .rodape .container{
-    height: 500px;
+    display: flex;    
+    justify-content: space-evenly;
+    padding: 100px;
 }
 
-.rodape .container .rodapeConteudo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+.rodapeEquipe li, .rodapeContatos li{
+    color: #DADFE6;
+    margin-top: 5px;
+    font-family: 'Merriweather', serif;
 }
 
-.logoUfc {
-    margin-top: 20px;
-    width: 217px;
-    height: 301.8px;
-}

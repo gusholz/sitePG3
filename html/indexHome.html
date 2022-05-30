@@ -7,7 +7,7 @@
         
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Tiro+Bangla&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" href="../css/reset.css">
         <link rel="stylesheet" href="../css/header.css">
@@ -17,42 +17,74 @@
     </head>
 
     <body>
-        
         <header class="cabecalho">
-            <img src="../imagens/aldemir.png" width="150px" height="150px" class="vetorAldemir">
+            <img src="../imagens/aldemir.png" class="vetorAldemir">
             <div class="container">
                 <nav class="menuNavegacao">
                     <a class="linkMenuNav" id= "ativo" href="http://127.0.0.1:5500/projetoPG3/html/indexHome.html">home</a>
                     <a class="linkMenuNav" id= "" href="http://127.0.0.1:5500/projetoPG3/html/indexVida.html">vida</a>
-                    <a class="linkMenuNav" id= "" href="http://127.0.0.1:5500/projetoPG3/html/indexObra.html">obra</a>
-                    <a class="linkMenuNav" id= "" href="http://127.0.0.1:5500/projetoPG3/html/indexAdquira.html">adquira</a>
-                    <a class="linkMenuNav" id= "" href="http://127.0.0.1:5500/projetoPG3/html/indexEncontre.html">encontre</a>
+                    <a class="linkMenuNav" id= "" href="http://127.0.0.1:5500/projetoPG3/html/indexObra.html">obras</a>
+                    <a class="linkMenuNav" id= "" href="http://127.0.0.1:5500/projetoPG3/html/indexExposicoes.html">exposições</a>
                 </nav>
             </div>    
         </header>
         <main>
             <section class="mainConteudoHome">
-                <h1>Matéria Aldemir</h1>
+                <div class="painelHome">
+                    <h1 id="h1Aldemir">Aldemir Martins</h1>
+                    <p>
+                        Um dos principais e mais renomados artistas Cearenses, Aldemir marcou seu tempo com obras
+                        divertidas e marcantes, que remetiam as suas influências modernistas e nordestinas. Em virtude
+                        da importante data de <b>100 Anos</b>, vamos elucidar sua trajetória artistica e sua 
+                        grande influência no cenário criativo local.
+                    </p>
+                    <a href="http://127.0.0.1:5500/projetoPG3/html/indexVida.html"><button class="button">saiba mais</button></a>
 
-                <p>
-                    Bem vindo nesse site vamo falar sobre o danado do aldemir
-                </p>
+                    <h2 class="h2Personalidade">Personalidade Artística</h2>
+                    <p>
+                        Sua técnica permeia várias formas de expressão, compreendendo a pintura, a gravura,
+                        o desenho, a cerâmica e até mesmo a escultura em diferentes suportes. Aldemir Martins
+                        não tinha receios em inovar e não limitava sua obra, surpreendendo pela constante experimentação.
+                        Além disso, seus traços fortes e tons vibrantes denotam uma vitalidade e uma força significativa
+                        as suas produções, o que lhes confere um carácter singular e as torna significativas para um povo
+                        que se contempla em suas pinturas e desenhos. Aldemir Martins pode ser comprendido como um<b> artista 
+                        brasileiro</b> por excelência. 
+                    </p>
+                    <a href="http://127.0.0.1:5500/projetoPG3/html/indexObra.html"><button class="button">saiba mais</button></a>
 
+
+                    <h2 class="h2Trajetoria">Trajetória Artística</h2>
+                    <p>
+                        O artista participou e participa de diversas exposições, nacionais e internacionais, revelando
+                        sua grande e diversa produção artística. Atualmente, é artista residente do Museu de Arte da 
+                        Universidade Federal do Ceará (MAUC) e em diversos outros meios artísticos. 
+                    </p>
+                    <a href="http://127.0.0.1:5500/projetoPG3/html/indexExposicoes.html"><button class="button">saiba mais</button></a>
+                    
+                </div>    
+                <img src="../imagens/autoRetratoAldemir.png" alt=""  id="imgHomeAldemir">
+                <img src="../imagens/praiaAldemir.jpg" alt="" id="imgHomePraia" >
+               
             </section>
         </main>        
 
         <footer class="rodape">
             <div class="container">
-                <ul class="rodapeConteudo">
-                    <li><img class="logoUfc"  src="./imagens/logoUFC.png" alt=""</li>
-                    <li>Equipe:</li>
+                <ul class="rodapeEquipe">
+                    <li>Desenvolvido por:</li>
                     <li>Raul Mangela</li>
-                    <li>Fabi    ana </li>
+                    <li>Fabiana ........ </li>
                     <li>Gustavo Holzmann</li>
+                </ul>
+                <ul class="rodapeContatos">
+                    <li>CONTATOS:</li>
+                    <li>raulindo@gmail.com</li>
+                    <li>fabyzinha123@hotmail.com</li>
+                    <li>gustavobarretohv@live.com</li>
                 </ul>
             </div>
         </footer>
 
-        <script src="main.js"></script>    
+        <script src="../main.js"></script>    
     </body>
 </html>
