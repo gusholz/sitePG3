@@ -1,37 +1,16 @@
-//evento scroll opacidade Heading
-const tituloHome = document.getElementById('h1Aldemir');
-window.addEventListener('DOMcontentLoaded',
-    window.addEventListener('scroll',()=>{
-    tituloHome.style.opacity=0;
-    let valorScrollY = window.scrollY;
-    tituloHome.style.opacity += valorScrollY/300;
-}))
+const background1 = "../imagens/1";
+const background2 = "../imagens/2";
+const background3 = "../imagens/3";
+let backgrounds = [background1,background2,background3];
 
+var img = document.querySelector(".imagensHome");
+let i = 1;
 
-
-
-//evento scroll png Aldemir
-const pngAldemir = document.getElementById('imgHomeAldemir');
-window.addEventListener('DOMcontentLoaded',
-window.addEventListener('scroll',()=>{
-    
-    const limiteScroll = `420px`;  
-    let valorScrollY = window.scrollY * 2.0;
-    //Verificador scroll Maximo
-    if(valorScrollY>900){
-        valorScrollY = 900;
-    }
-    pngAldemir.style.marginBottom = `${valorScrollY}px`;
-}))
-
-//evento scroll opacidade imagemPraia
-const imgHomePraia = document.getElementById('imgHomePraia');
-imgHomePraia.style.opacity=0;
-window.addEventListener('DOMcontentLoaded',
-    window.addEventListener('scroll',()=>{
-    let valorScrollY = window.scrollY/750;
-    imgHomePraia.style.opacity = valorScrollY;
-    
-}))
-
-
+function mudarBg() {
+  img.style.backgroundImage = `url("${backgrounds[i]}.jpg")`
+  i++;
+  console.log("i:", i);
+  if(i > 2){
+    i=0;
+  }
+}

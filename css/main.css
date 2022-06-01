@@ -1,106 +1,16 @@
-.mainConteudoHome{
-    background-color: #DADFE6;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+body{
+    background-color: rgba(0, 0, 0, 0.76);
 }
 
-.painelHome {
-    display: flex;
-    flex-direction: column;
-    max-width: 40%;
-    align-items: center;
-    margin-bottom: 20px
+.imagensHome {
+    max-width: 100%;
+    height: 44em;
+    width: 100em;
+    background-image: url(../imagens/1.jpg);
+    /*background-image: url(../imagens/2.jpg);*/
+    /*background-image: url(../imagens/3.jpg);*/
+    background-position:center center;     
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
-
-
-.mainConteudoHome h1 {
-    font-size: 64px;
-    color: #171A19;
-    font-family: 'Tiro Bangla', serif;
-    margin-top: 140px;
-    opacity: 0;
-}
-
-.mainConteudoHome h2 {
-    font-size: 24px;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    color: #171A19;
-    font-family: 'Merriweather', serif;
-}
-
-.mainConteudoHome p {
-    font-size: 16px;
-    line-height: normal;
-    max-width: 60%;
-    font-family: 'Merriweather', serif;
-    text-align: left;
-    margin-bottom: 40px;
-}
-
-
-#imgHomeAldemir {
-    width: 20%; 
-    height: 20%;
-}
-
-
-#imgHomePraia {
-    position: absolute;
-    width: 512px;
-    height: 425px;
-    margin-left: 350px;
-    margin-top: 90px;
-    -moz-box-shadow: 10px 10px 5px #ccc;
-    -webkit-box-shadow: 10px 10px 5px #ccc;
-    box-shadow: 10px 10px 5px #ccc;
-    -moz-border-radius:25px;
-    -webkit-border-radius:25px;
-    border-radius:25px;
-}
-
-#imgHomeGatoAzul {
-    position: absolute;
-    width: 108,5px;
-    height: 150px;
-    margin-left: 550px;
-    margin-top: 572px;
-}
-
-.mainConteudoVida{
-    background-color: #DADFE6;
-    
-}
-
-.mainConteudoObra{
-    background-color: #DADFE6;
-   
-}
-
-.mainConteudoEncontre{
-    background-color: #DADFE6;
-    
-}
-
-b {
-    font-weight: 700;
-}
-
-.button {
-    font-family: 'Merriweather', serif;
-    padding: 15px;
-    background-color: #171A19;
-    color: #DADFE6;
-    border: none;
-    border-radius: 20%;
-    
-}
-
-a :hover {
-    cursor: pointer;
-    font-weight: 700;
-    text-decoration: underline ;
-}
-
-
