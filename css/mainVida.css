@@ -1,0 +1,48 @@
+
+.mainConteudoVida {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #469bd6;
+}
+.conteudoLinhaVertical {
+    display: flex;
+}
+
+.timeLine{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.linhaVertical {
+    border-left: 6px solid whitesmoke;
+    border-radius: 50px;
+    height: 1300px;
+    margin-left: 40%;
+}
+
+.linhaHorizontal{
+    border-left: 6px solid whitesmoke;
+    transform: rotate(90deg);
+    height: 60px;
+    margin-left: 2%;
+}
+
+
+.blocoTexto{
+    margin-left: 3%;
+}
+
+.blocoTexto h2 {
+    font-family: 'Tiro Bangla', serif;
+    font-size: 48px;
+    
+}
+
+.blocoTexto p {
+    max-width: 40%;
+    margin-bottom: 5%;
+}
