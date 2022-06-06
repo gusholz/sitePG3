@@ -1,23 +1,20 @@
 .cabecalho .container{
     display: flex;
-    background: transparent;
+    background-color: #1E73B5 ;
 }
 
-.cabecalhoVida .container {
-    background-color: #469bd6;
+.cabecalhoHome :hover{
+    background-color: #1E73B5 ;
+    transition: 0.5s ease-in-out;
 }
+
 
 .cabecalho .container :hover{
-    background-color: #469bd6 ;
-    transition: 0.5s;
-}
-
-.cabecalhoVida .container :hover{
     background-color: #E5C520 ;
-    transition: 0.5s;
+    transition: 0.7s ease-in-out;
 }
 
-.cabecalhoVida .linkMenuNav{
+.cabecalho .linkMenuNav{
     font-size: 24px;
     font-family: 'Merriweather', serif;
     text-decoration: none;
@@ -44,13 +41,12 @@
     transition: none;
 }
 
-.linkMenuNav:hover {
+.menuNavegacao :hover {
     transition: none;
     font-weight: 700;
     opacity: 1;
 }
 
 #ativo {
-    font-weight: 500;
     text-decoration: underline;
 }

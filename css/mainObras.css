@@ -1,0 +1,47 @@
+body{
+    background-color: #1E73B5;
+}
+
+h1{
+    font-size: 128px;
+    color: white;
+    font-family: 'Merriweather',sans-serif, bold;
+    margin-top: 15%;
+    margin-bottom: 8%;
+}
+
+h2 {
+    font-size: 72px;
+    color: white;
+    font-family: 'Merriweather',sans-serif;   
+}
+
+.mainConteudoObra {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fileiraImagens{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.imagensObras {
+    max-width: 270px;
+}
+
+.seta {
+    height: 100px;
+    opacity: 0.5;
+}
+
+#setaDireita{
+    margin-left: 10%;
+}
+
+.alterarImagem :hover{
+    opacity: 1;
+}
