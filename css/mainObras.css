@@ -2,6 +2,11 @@ body{
     background-color: #1E73B5;
 }
 
+.headingObras{
+    margin-top: 10%;
+    margin-bottom: 7%;
+}
+
 h1{
     font-size: 128px;
     color: white;
@@ -11,9 +16,9 @@ h1{
 }
 
 h2 {
-    font-size: 72px;
+    font-size: 48px;
     color: white;
-    font-family: 'Merriweather',sans-serif;   
+    font-family: 'Merriweather',sans-serif, bold;   
 }
 
 .mainConteudoObra {
@@ -45,3 +50,43 @@ h2 {
 .alterarImagem :hover{
     opacity: 1;
 }
+
+.linkSaibaMais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    margin-bottom: 10%;
+}
+
+.linkSaibaMais :hover{
+    background-color: #E5C520;
+}
+
+.botaoSaibaMais{
+    background-color: #fff;
+    text-decoration: none;
+    font-family:'Merriweather',sans-serif ;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+    transition-duration: 0.6s;
+}
+
+@media only screen and (max-width: 700px)  { 
+    .menuNavegacao{
+        background-color: #E5C520;
+    }
+
+    .imagensObras{
+        max-width: 150px;
+    }
+
+    .botaoSaibaMais{
+        background-color: #E5C520;
+        color: black;
+    }
+
+    
+}
+

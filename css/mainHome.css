@@ -5,7 +5,7 @@ body{
 
 .imagensHome {
     max-width: 100%;
-    height: 60em;
+    height: 69em;
     width: 160em;
     background-image: url(../imagens/1.jpg);
     /*background-image: url(../imagens/2.jpg);*/
@@ -27,7 +27,7 @@ body{
 h1 {
     font-size: 96px;
     font-weight: bold;
-    color: white;
+    color: rgb(245, 245, 245);
     font-family: 'Merriweather',sans-serif, bold;
     margin-bottom: 2%;
 }
@@ -44,7 +44,45 @@ h1 {
 
 :hover {
     opacity: 1;
-
 }
+
+.botaoSaibaMais {
+    background-color: #fff;
+    font-family:'Merriweather',sans-serif, bold; ;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+    transition-duration: 0.6s;
+}
+
+.linkSaibaMais :hover {
+    background-color: #1E73B5;
+}
+
+@media only screen and (max-width: 700px)  { 
+    .menuNavegacao{
+        background-color: #1E73B5;
+    }
+
+    .imagensHome{
+        max-width: 100%;
+        height: 60em;
+        width: 44em;
+    }
+
+    .saibaMaisHome{
+        margin-top: 60%;
+    }
+
+    #setaDireita{
+        margin-left: 85%;
+    }
+
+    .botaoSaibaMais{
+        background-color: #1E73B5;
+        color: #fff;
+    }
+}
+
 
 

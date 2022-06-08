@@ -9,9 +9,9 @@
 }
 
 
-.cabecalho .container :hover{
+.cabecalho :hover{
     background-color: #E5C520 ;
-    transition: 0.7s ease-in-out;
+    transition: 0.5s ease-in-out;
 }
 
 .cabecalho .linkMenuNav{
@@ -21,12 +21,12 @@
     color: #000000;
     padding: 20px;
     opacity: 0.6;
-    transition: none;
 }
 
 .menuNavegacao {
     display: flex;
     width: 100%;
+    
     justify-content: center;
     transition: none;
 }
@@ -41,6 +41,8 @@
     transition: none;
 }
 
+
+
 .menuNavegacao :hover {
     transition: none;
     font-weight: 700;
@@ -49,4 +51,10 @@
 
 #ativo {
     text-decoration: underline;
+}
+
+@media only screen and (max-width: 700px)  { 
+    .menuNavegacao{
+        background-color: #1E73B5;
+    }
 }
