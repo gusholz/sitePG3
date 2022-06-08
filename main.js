@@ -1,6 +1,6 @@
-const background1 = "../imagens/1";
-const background2 = "../imagens/2";
-const background3 = "../imagens/3";
+const background1 = "./imagens/1";
+const background2 = "./imagens/2";
+const background3 = "./imagens/3";
 let backgrounds = [background1,background2,background3];
 
 let img = document.querySelector(".imagensHome");
@@ -47,26 +47,26 @@ function mudarImagem(tipo, num){
   }
 
   if(tipo == 'gato'){
-    imagem1.src = `../imagens/Obras/${tipo}${(counter % numInt)}.png`
-    imagem2.src= `../imagens/Obras/${tipo}${((counter+1) % numInt)}.png`
-    imagem3.src= `../imagens/Obras/${tipo}${((counter+2) % numInt)}.png` 
+    imagem1.src = `./imagens/Obras/${tipo}${(counter % numInt)}.png`
+    imagem2.src= `./imagens/Obras/${tipo}${((counter+1) % numInt)}.png`
+    imagem3.src= `./imagens/Obras/${tipo}${((counter+2) % numInt)}.png` 
   }
   if(tipo == 'pessoa'){
-    imagem4.src = `../imagens/Obras/${tipo}${(counter % numInt)}.png`
-    imagem5.src= `../imagens/Obras/${tipo}${((counter+1) % numInt)}.png`
-    imagem6.src= `../imagens/Obras/${tipo}${((counter+2) % numInt)}.png` 
+    imagem4.src = `./imagens/Obras/${tipo}${(counter % numInt)}.png`
+    imagem5.src= `./imagens/Obras/${tipo}${((counter+1) % numInt)}.png`
+    imagem6.src= `./imagens/Obras/${tipo}${((counter+2) % numInt)}.png` 
   }
 
   if(tipo == 'animal'){
-    imagem7.src = `../imagens/Obras/${tipo}${(counter % numInt)}.png`
-    imagem8.src= `../imagens/Obras/${tipo}${((counter+1) % numInt)}.png`
-    imagem9.src= `../imagens/Obras/${tipo}${((counter+2) % numInt)}.png` 
+    imagem7.src = `./imagens/Obras/${tipo}${(counter % numInt)}.png`
+    imagem8.src= `./imagens/Obras/${tipo}${((counter+1) % numInt)}.png`
+    imagem9.src= `./imagens/Obras/${tipo}${((counter+2) % numInt)}.png` 
   }
 
   if(tipo == 'paisagem'){
-    imagem10.src = `../imagens/Obras/${tipo}${(counter % numInt)}.png`
-    imagem11.src= `../imagens/Obras/${tipo}${((counter+1) % numInt)}.png`
-    imagem12.src= `../imagens/Obras/${tipo}${((counter+2) % numInt)}.png` 
+    imagem10.src = `./imagens/Obras/${tipo}${(counter % numInt)}.png`
+    imagem11.src= `./imagens/Obras/${tipo}${((counter+1) % numInt)}.png`
+    imagem12.src= `./imagens/Obras/${tipo}${((counter+2) % numInt)}.png` 
   }
 
 };
@@ -78,25 +78,25 @@ function mudarImagemBack(tipo, num){
     counter = num;
   }
   if(tipo == 'gato'){
-    imagem1.src = `../imagens/Obras/${tipo}${(counter % numInt)}.png`
-    imagem2.src= `../imagens/Obras/${tipo}${((counter+1) % numInt)}.png`
-    imagem3.src= `../imagens/Obras/${tipo}${((counter+2) % numInt)}.png` 
+    imagem1.src = `./imagens/Obras/${tipo}${(counter % numInt)}.png`
+    imagem2.src= `./imagens/Obras/${tipo}${((counter+1) % numInt)}.png`
+    imagem3.src= `./imagens/Obras/${tipo}${((counter+2) % numInt)}.png` 
   }
   if(tipo == 'pessoa'){
-    imagem4.src = `../imagens/Obras/${tipo}${(counter % numInt)}.png`
-    imagem5.src= `../imagens/Obras/${tipo}${((counter+1) % numInt)}.png`
-    imagem6.src= `../imagens/Obras/${tipo}${((counter+2) % numInt)}.png` 
+    imagem4.src = `./imagens/Obras/${tipo}${(counter % numInt)}.png`
+    imagem5.src= `./imagens/Obras/${tipo}${((counter+1) % numInt)}.png`
+    imagem6.src= `./imagens/Obras/${tipo}${((counter+2) % numInt)}.png` 
   }
 
   if(tipo == 'animal'){
-    imagem7.src = `../imagens/Obras/${tipo}${(counter % numInt)}.png`
-    imagem8.src= `../imagens/Obras/${tipo}${((counter+1) % numInt)}.png`
-    imagem9.src= `../imagens/Obras/${tipo}${((counter+2) % numInt)}.png` 
+    imagem7.src = `./imagens/Obras/${tipo}${(counter % numInt)}.png`
+    imagem8.src= `./imagens/Obras/${tipo}${((counter+1) % numInt)}.png`
+    imagem9.src= `./imagens/Obras/${tipo}${((counter+2) % numInt)}.png` 
   }
 
   if(tipo == 'paisagem'){
-    imagem10.src = `../imagens/Obras/${tipo}${(counter % numInt)}.png`
-    imagem11.src= `../imagens/Obras/${tipo}${((counter+1) % numInt)}.png`
-    imagem12.src= `../imagens/Obras/${tipo}${((counter+2) % numInt)}.png` 
+    imagem10.src = `./imagens/Obras/${tipo}${(counter % numInt)}.png`
+    imagem11.src= `./imagens/Obras/${tipo}${((counter+1) % numInt)}.png`
+    imagem12.src= `./imagens/Obras/${tipo}${((counter+2) % numInt)}.png` 
   }
 };

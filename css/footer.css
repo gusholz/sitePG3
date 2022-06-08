@@ -27,6 +27,7 @@
 
 .rodape .container a :hover {
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .rodape{
