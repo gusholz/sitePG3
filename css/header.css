@@ -41,8 +41,6 @@
     transition: none;
 }
 
-
-
 .menuNavegacao :hover {
     transition: none;
     font-weight: 700;
@@ -54,7 +52,33 @@
 }
 
 @media only screen and (max-width: 700px)  { 
-    .menuNavegacao{
-        background-color: #1E73B5;
+    .menuNavHome{
+        background-color: #1E73B5 ;
     }
+
+    .menuNavegacao{
+        background-color: #E5C520;
+    }
+
+    .heading{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .linkMenuNav{
+        opacity: 1 !important;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .linkMenuNav{
+        font-size: 18px !important;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    .linkMenuNav{
+        font-size: 16px !important;
+    }
+
 }

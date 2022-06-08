@@ -82,15 +82,6 @@ h1{
 }
 
 @media only screen and (max-width: 700px)  { 
-    .menuNavegacao{
-        background-color: #E5C520;
-    }
-
-    .heading{
-        display: flex;
-        flex-direction: column;
-    }
-
     #linhaVertical{
         display: none;
     }
@@ -106,5 +97,17 @@ h1{
 
     h1{
         font-size: 100px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    h1{
+        font-size: 72px;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    h1{
+        font-size: 64px;
     }
 }

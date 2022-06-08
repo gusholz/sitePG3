@@ -68,3 +68,27 @@ p{
         margin-bottom: 5%;
     }
 }
+@media only screen and (max-width: 480px){
+    h1{
+        font-size: 72px;
+    }
+
+    h2{
+        font-size: 48px;
+        text-align: center;
+    }
+
+    img{
+        max-width: fit-content;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    h1{
+        font-size: 60px;
+    }
+
+    img{
+        max-width: 250px;
+    }
+}

@@ -1,3 +1,9 @@
+.rodape .container{
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
 .rodape .container h1{
     font-size: 32px;
     margin-bottom: 1%;
@@ -27,20 +33,12 @@
 
 .rodape .container a :hover {
     text-decoration: underline;
-    cursor: pointer;
 }
 
 .rodape{
     background-color: #171a19;
-    margin-top: auto;
 }
 
-.rodape .container{
-    display: flex;    
-    flex-direction: column;
-    align-items: center;
-    padding: 100px;
-}
 
 .membrosEquipe {
     display: flex;
@@ -66,6 +64,7 @@
 
     .membro{
         margin-bottom: 10%;
+        margin-right: 0;
     }
 
     h2{
@@ -74,6 +73,13 @@
 
     h3{
         margin-bottom: 3%;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .rodape .container h1{
+        font-size: 24px;
+        margin-bottom: 4%;
     }
 }
 

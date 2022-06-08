@@ -85,8 +85,29 @@ h2 {
     .botaoSaibaMais{
         background-color: #E5C520;
         color: black;
+    } 
+
+    .seta{
+        height: 70px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .headingObras{
+        width: 80%;
     }
 
+    .imagensObras{
+        max-width: 85px;
+    }
+
+    .seta{
+        height: 40px;
+    }
+}
+
+
+@media only screen and (max-width: 360px){
     
 }
 
